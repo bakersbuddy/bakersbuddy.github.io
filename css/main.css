@@ -49,7 +49,7 @@ ul li {
   padding: 5px 15px;
 }
 .menu .navbar-default .navbar-nav > li > a:hover {
-  color: #f48e5c;
+  color: #ff6633;
 }
 .menu .navbar-nav {
   float: none;
@@ -91,7 +91,7 @@ header .social-info li a {
   border-right: 1px solid #dedede;
 }
 header .social-info li a:hover {
-  color: #f48e5c;
+  color: #ff6633;
 }
 #banner {
   background-size: cover;
@@ -133,16 +133,16 @@ header .social-info li a:hover {
   font-size: 20px;
 }
 #banner .block .download-btn li .btn-apple {
-  background: #8883bc;
+  background: #ff6633; /*#8883bc;*/
   border: 1px solid transparent;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
   transition: .2s all;
 }
 #banner .block .download-btn li .btn-apple:hover {
-  color: #8883bc;
+  color: #ff6633; /*#8883bc;*/
   background: #fff;
-  border: 1px solid #8883bc;
+  border: 1px solid #ff6633; /*#8883bc;*/
 }
 #banner .block .download-btn li .btn-andriod {
   background: #6fbf39;
@@ -184,15 +184,15 @@ header .social-info li a:hover {
   color: #fff;
 }
 #service .block:hover h3 {
-  color: #f48e5c;
+  color: #ff6633;
 }
 #service .block:hover .icon {
   border: 1px solid #FFFFFF;
-  background: #f48e5c;
+  background: #ff6633;
   color: #fff;
-  -webkit-box-shadow: 0 0 0px 2px #f48e5c;
-  -moz-box-shadow: 0 0 0px 2px #f48e5c;
-  box-shadow: 0 0 0px 2px #f48e5c;
+  -webkit-box-shadow: 0 0 0px 2px #ff6633;
+  -moz-box-shadow: 0 0 0px 2px #ff6633;
+  box-shadow: 0 0 0px 2px #ff6633;
 }
 #service .block .icon {
   width: 90px;
@@ -220,6 +220,58 @@ header .social-info li a:hover {
 #service .block p {
   color: #666;
 }
+#social {
+  padding: 30px 0;
+}
+#social .service-wrapper {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 110px 0;
+}
+#social .block {
+  cursor: pointer;
+  text-align: center;
+}
+#social .block:hover .icon i {
+  color: #fff;
+}
+#social .block:hover h3 {
+  color: #ff6633;
+}
+#social .block:hover .icon {
+  border: 1px solid #FFFFFF;
+  background: #ff6633;
+  color: #fff;
+  -webkit-box-shadow: 0 0 0px 2px #ff6633;
+  -moz-box-shadow: 0 0 0px 2px #ff6633;
+  box-shadow: 0 0 0px 2px #ff6633;
+}
+#social .block .icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 1px solid #dedede;
+  text-align: center;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+#social .block i {
+  font-size: 25px;
+  line-height: 90px;
+  color: #989898;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+#social .block h3 {
+  color: #555;
+  font-weight: 300;
+}
+#social .block p {
+  color: #666;
+}
 #feature {
   padding: 120px 0;
 }
@@ -236,11 +288,11 @@ header .social-info li a:hover {
   padding-right: 22px;
 }
 #feature .feature-item .icon i {
-  color: #f48e5c;
+  color: #ff6633;
   font-size: 30px;
 }
 #feature .feature-item h4 {
-  color: #f48e5c;
+  color: #ff6633;
   margin-bottom: 0;
   font-weight: 300;
   margin-bottom: 8px;
@@ -277,6 +329,33 @@ header .social-info li a:hover {
   color: #666;
 }
 #utility-2 .block p {
+  line-height: 32px;
+  color: #9AA0A9;
+  font-size: 16px;
+}
+#utility-3 {
+  background: #f6f6f7;
+  padding: 20px 0 30px 0;
+}
+#utility-3 .block h2 {
+  padding-top: 70px;
+  color: #444;
+}
+#utility-3 .block p {
+  line-height: 32px;
+  color: #7c828b;
+  font-size: 16px;
+}
+#utility-4 {
+  padding: 40px 0 10px 0;
+}
+#utility-4 .block {
+  padding-top: 100px;
+}
+#utility-4 .block h2 {
+  color: #666;
+}
+#utility-4 .block p {
   line-height: 32px;
   color: #9AA0A9;
   font-size: 16px;
