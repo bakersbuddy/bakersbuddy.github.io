@@ -228,7 +228,7 @@ header .social-info li a:hover {
   border-bottom: 1px solid #dedede;
   padding: 110px 0;
 }
-#social .block {
+#social .block { 
   cursor: pointer;
   text-align: center;
 }
